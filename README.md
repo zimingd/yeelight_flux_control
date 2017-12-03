@@ -4,7 +4,7 @@ Script that controls the color temperature and brightness Yeelight RGB Bulbs bas
 
 Requires Python 3
 
-'LAN Mode' must be enableed for your bulbs using the Yeelight Andriod/iOS app
+'LAN Mode' must be enabled for your bulbs using the Yeelight Andriod/iOS app
 
 To run:
 ```
