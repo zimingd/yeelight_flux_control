@@ -5,10 +5,10 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 from urllib.parse import urlparse, parse_qsl
 
 YEELIGHT_IPS = []  # Add the IP addresses of your Yeelights to this list:
-YEELIGHT_CONTROL_PORT = 55443  # This is defined by Yeelight's API. Don't change
-TRANSITION_DURATION_MS = 30
-TRANSITION_TYPE = "sudden"
+TRANSITION_DURATION_MS = 2000
+TRANSITION_TYPE = "smooth"
 
+YEELIGHT_CONTROL_PORT = 55443  # This is defined by Yeelight's API. Don't change
 FLUX_LISTEN_PORT = 42069
 
 
