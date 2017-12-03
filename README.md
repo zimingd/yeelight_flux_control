@@ -3,6 +3,7 @@
 Script that controls the color temperature and brightness Yeelight RGB Bulbs based on the color temperature set in f.lux
 
 Requires Python 3
+'LAN Mode' must be enableed for your bulbs using the Yeelight Andriod/iOS app
 
 To run:
 ```
